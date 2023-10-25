@@ -1,0 +1,4 @@
+/* fix course filter selection to show mostly on a single line with its toggle*/
+.coursebase-filter-header {
+    font-size: 1rem !important
+}
