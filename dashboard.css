@@ -1,0 +1,39 @@
+/* enable content cards to take up more space */
+body.limitedwidth #page.drawers .main-inner {
+    max-width: 100% !important
+}
+
+#page.drawers .main-inner {
+    padding: 0.5rem 0.5rem !important
+}
+
+/* enable four items to be in the starred card */
+.dashboard-card-deck:not(.fixed-width-cards) .dashboard-card {
+    width: calc(25% - 0.5rem) !important
+}
+
+/* reorder dashboard cards */
+#block-region-content {
+    display:flex !important;
+    flex-flow: column
+}
+
+#inst102460 {
+    order: 2
+}
+
+#inst118822 {
+    order: 3
+}
+
+#inst118818 {
+    order: 1
+}
+
+#inst552 {
+    order: 4
+}
+
+#inst118819 {
+    order: 5
+}
