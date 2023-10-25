@@ -18,22 +18,27 @@ body.limitedwidth #page.drawers .main-inner {
     flex-flow: column
 }
 
+/* Timeline card */
 #inst102460 {
     order: 2
 }
 
+/* Recently accessed items card */
 #inst118822 {
     order: 3
 }
 
+/* Starred courses card */
 #inst118818 {
     order: 1
 }
 
+/* Upcoming events card */
 #inst552 {
     order: 4
 }
 
+/* Study tools card */
 #inst118819 {
     order: 5
 }
