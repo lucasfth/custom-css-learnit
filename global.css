@@ -1,3 +1,17 @@
+/* fix coloring */
+:root{
+    --main-black: #242424;
+    --main-white: #fff;
+    --topnav-bg-color: var(--main-black) !important;
+    --brand-info-bg-color: var(--main-black) !important;
+    --brand-info-bg-color-alt: var(--main-black) !important;
+    --brand-info-fg-color: var(--main-white) !important;
+    --card-title-bg-color: var(--main-white) !important;
+    --card-title-fg-color: var(--main-black) !important;
+    --drawer-block-bg-color: var(--main-white) !important;
+    --drawer-block-active-bg-color: var(--main-black) !important
+}
+
 /* enable content cards to take up more space */
 body.limitedwidth #page.drawers .main-inner {
     max-width: 100% !important
