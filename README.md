@@ -1,5 +1,7 @@
 # custom-css-learnit
 
+Created by [Frederik Petersen](https://github.com/fredpetersen) and [Lucas Hanson](https://github.com/lucasfth)
+
 LearnIT now looks like shit.\
 I have therefore now started to create custom CSS to fix some of the visual problems
 
