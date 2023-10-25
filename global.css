@@ -32,6 +32,7 @@ body.limitedwidth #page.drawers .main-inner {
     max-width: 100% !important
 }
 
+/* fix padding on inner main content card*/
 #page.drawers .main-inner {
     padding: 0.5rem 0.5rem !important
 }
