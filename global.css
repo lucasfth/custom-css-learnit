@@ -12,6 +12,11 @@
     --drawer-block-active-bg-color: var(--main-black) !important
 }
 
+/* fix section name coloring */
+.sectionname {
+    color: var(--main-black) !important
+}
+
 /* enable content cards to take up more space */
 body.limitedwidth #page.drawers .main-inner {
     max-width: 100% !important
