@@ -1,3 +1,5 @@
+
+
 /* enable four items to be in the starred card */
 .dashboard-card-deck:not(.fixed-width-cards) .dashboard-card {
     width: calc(25% - 0.5rem) !important
@@ -5,31 +7,65 @@
 
 /* reorder dashboard cards */
 #block-region-content {
-    display:flex !important;
-    flex-flow: column
+    display: grid !important;
+    gap: 12px;
+    grid-template: "courses courses timeline" 1fr
+                   "recent recent timeline" auto
+                   "events tools timeline" / 6fr 6fr 4fr;
+}
+
+#block-region-content>span {
+    display: none;
 }
 
 /* Timeline card */
 #inst102460 {
-    order: 2
+    grid-area: timeline;
 }
 
 /* Recently accessed items card */
 #inst118822 {
-    order: 3
+    grid-area: "recent";
+    grid-row-start: 2;
+    grid-column-start: 1;
+    grid-column-end: 3;
 }
 
 /* Starred courses card */
 #inst118818 {
-    order: 1
+    grid-area: "courses";
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-column-end: 3;
 }
 
 /* Upcoming events card */
 #inst552 {
-    order: 4
+    grid-area: "events"
 }
 
 /* Study tools card */
 #inst118819 {
-    order: 5
+    grid-area: "tools"
+}
+
+/* fix timeline card settings */
+div.block-timeline div.row.no-gutters>div {
+    max-width: none !important;
+    flex-grow: 1 !important;
+    margin-right: 0px !important;
+}
+
+div.block-timeline div.row.no-gutters>div>div {
+    width: 100% !important;
+}
+
+div.block-timeline div.row.no-gutters>div button {
+    width: 100% !important;
+} 
+
+/* fix my courses due to grid layout */
+.block_myoverview {
+    grid-column-start: 1;
+    grid-column-end: 4;
 }
