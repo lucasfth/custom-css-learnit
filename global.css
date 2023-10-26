@@ -17,16 +17,6 @@
     color: var(--main-black) !important
 }
 
-/* fix search icon */
-#usernavigation .fa-search:before {
-    content: "🔎" !important
-}
-
-/* fix close search icon */
-#usernavigation .fa-times:before {
-    content: "🙅" !important
-}
-
 /* enable content cards to take up more space */
 body.limitedwidth #page.drawers .main-inner {
     max-width: 100% !important
