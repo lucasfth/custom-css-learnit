@@ -19,4 +19,4 @@ The CSS in [global.css](https://github.com/lucasfth/custom-css-learnit/blob/main
 *I think
 
 ## Arc Browser
-If you use the Arc browser then you can grab [this](https://arc.net/boost/96EDE25C-002D-4230-9CAA-7008FFD29A2E) boost instead.
+If you use the Arc browser then you can grab [this](https://arc.net/boost/E4DEFEC3-EA73-46F9-9E64-77937932DEE8) boost instead.
