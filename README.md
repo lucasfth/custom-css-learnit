@@ -1,5 +1,7 @@
 # custom-css-learnit
 
+OBS: The CSS in this repo is slowly getting moved into [learnit-plus-plus](https://github.com/PhilipFlyvholm/learnit-plus-plus).
+
 Created by [Frederik Petersen](https://github.com/fredpetersen) and [Lucas Hanson](https://github.com/lucasfth)
 
 ## Reason for creation of this repo
